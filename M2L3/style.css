@@ -1,0 +1,99 @@
+body {
+    font-family: Press Start 2P, serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #ffdbe5; /* El color del fondo de la página web */
+}
+h1 {text-align: center;
+    color: #E27396; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+p {
+    color: #6D9F71;    
+    font-size: 18px;
+}
+h2 {
+    color: #E27396; 
+    font-size: 24px; 
+    font-family: Zilla Slab, serif; 
+    text-decoration-color: 
+    text-decoration-thickness: 3px
+}
+ul {
+    color: #337357;
+    font-size: 18px
+
+}
+.imagen-redonda {
+    width: 150px;  
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+
+}
+.subrayado {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+
+}
+.rojo {
+    color: #ff0000;
+
+}
+.contenedor {
+    display: flex;   
+    justify-content: space-between; 
+}
+      
+.izquierda, .derecha {
+    width: 50%;    
+    padding: 20px;   
+}
+      
+.imagen {
+    width: 100%;     
+    max-width: 300px; 
+    display: block;  
+    margin-top: 10px;
+}
+
+@keyframes color-change {
+    0% {
+        color: rgb(249, 54, 207);
+      }
+    
+      50% {
+        color: rgb(0, 145, 255);
+      }
+  
+      100% {
+        color: rgb(0, 155, 34);
+      }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(249, 54, 207);
+    }
+  
+    50% {
+      color: rgb(0, 145, 255);
+    }
+
+    100% {
+      color: #6D9F71;
+    }
+  
+}
+
+p:hover {
+    animation: color-change 3s infinite;
+}
